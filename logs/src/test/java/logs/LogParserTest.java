@@ -15,11 +15,10 @@ import com.purbon.hadoop.logs.parser.LogParser;
 
 public class LogParserTest {
 
-	LogParser parser;
+	LogParser parser = new LogParser();
 	
 	@Before
 	public void setUp() throws Exception {
-		parser = new LogParser();
 	}
 
 	@After
